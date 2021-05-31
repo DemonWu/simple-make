@@ -1,0 +1,35 @@
+{
+  "name": "@wuhao_demon/simple-make",
+  "version": "0.0.1",
+  "description": "简单创建文件模板，方便开发时需要",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "build": "webpack",
+    "dev:watch": "webpack --watch"
+  },
+  "bin": {
+    "simple-make": "./dist/main.js"
+  },
+  "author": "wuhao_demon",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "dayjs": "^1.10.5",
+    "inquirer": "^8.1.0",
+    "path-browserify": "^1.0.1",
+    "shelljs": "^0.8.4",
+    "yargs": "^17.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "copy-webpack-plugin": "^9.0.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-shebang-plugin": "^1.1.4"
+  }
+}
