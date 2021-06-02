@@ -1,6 +1,6 @@
 {
   "name": "@wuhao_demon/simple-make",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "简单创建文件模板，方便开发时需要",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,8 @@
   "bin": {
     "simple-make": "./dist/main.js"
   },
+  "homepage": "https://github.com/DemonWu/simple-make",
+  "repository": "git://github.com/DemonWu/simple-make.git",
   "author": "wuhao_demon",
   "license": "MIT",
   "dependencies": {
